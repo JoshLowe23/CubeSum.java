@@ -1,0 +1,18 @@
+// Prompt the user to input two values. The program takes the values adds them and then cubes the values and prints out the prduct.
+// Josh Lowe
+// It went ok could not get it to compile for a while. But fun to do
+import java.util.Scanner;
+public class CubeSum
+{
+  public static void main(String[] args) 
+{
+  Scanner input = new Scanner (Scanner.in);
+  System.out.print("Enter integer 1: ");
+    int answer1 = input.nextInt();
+    System.out.print("Enter integar 2: ");
+    int answer2 = input.nextInt();
+    int sum = answer1 + answer2;
+    int cube = sum * sum * sum;
+    System.out.println("The sum of the cubes of these numbers is: " + cube);
+    }
+ }
