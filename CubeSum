@@ -7,7 +7,7 @@ public class CubeSum
   public static void main(String[] args) 
 {
   Scanner input = new Scanner (Scanner.in);
-  System.out.print("Enter integer 1: ");
+    System.out.print("Enter integer 1: ");
     int answer1 = input.nextInt();
     System.out.print("Enter integar 2: ");
     int answer2 = input.nextInt();
