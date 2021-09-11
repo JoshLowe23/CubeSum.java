@@ -7,9 +7,9 @@ public class CubeSum
   public static void main(String[] args) 
 {
   Scanner input = new Scanner (Scanner.in);
-    System.out.print("Enter integer 1: ");
+    System.out.println("Enter integer 1: ");
     int answer1 = input.nextInt();
-    System.out.print("Enter integar 2: ");
+    System.out.println("Enter integar 2: ");
     int answer2 = input.nextInt();
     int sum = answer1 + answer2;
     int cube = sum * sum * sum;
