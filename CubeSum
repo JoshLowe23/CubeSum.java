@@ -1,6 +1,6 @@
 // Prompt the user to input two values. The program takes the values adds them and then cubes the values and prints out the prduct.
 // Josh Lowe
-// It went ok could not get it to compile for a while. But fun to do
+// It went pretty well, could not get it to compile for a while but had fun getting it to work.
 import java.util.Scanner;
 public class CubeSum
 {
